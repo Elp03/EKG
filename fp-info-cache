@@ -1,4 +1,18 @@
-5176777600901
+12082679266130
+5010
+TP_5010
+
+
+0
+1
+1
+Adafruit ADS1115
+MODULE_1085
+
+
+0
+16
+16
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85483,6 +85497,13 @@ Potentiometer vertical vishay
 0
 3
 3
+RB-0515D
+CONV_RB-0515D
+
+
+0
+5
+5
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf
@@ -96648,3 +96669,10 @@ SO08
 0
 8
 8
+stx-3120-3b
+KYCON_STX-3120-3B
+
+
+0
+3
+3
