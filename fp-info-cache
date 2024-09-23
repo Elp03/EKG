@@ -1,4 +1,11 @@
-12082679266130
+25903345662799
+2030
+2030
+
+
+0
+6
+6
 5010
 TP_5010
 
@@ -6,6 +13,13 @@ TP_5010
 0
 1
 1
+1825255-1
+SW_1825255-1
+
+
+0
+5
+5
 Adafruit ADS1115
 MODULE_1085
 
@@ -64665,6 +64679,13 @@ Yellow 5381 Series LED
 0
 2
 2
+Library
+1904
+
+
+0
+4
+4
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -96648,6 +96669,27 @@ Varistor VF
 0
 2
 2
+b2b-xh-a
+JST_B2B-XH-A_LF__SN_
+
+
+0
+2
+2
+dm-oled096
+MODULE_DM-OLED096-636
+
+
+0
+8
+8
+esp32
+MODULE_ESP32_DEVKIT_V1
+
+
+0
+30
+30
 ina126
 DIL08
 <b>Dual In Line</b>
@@ -96669,6 +96711,13 @@ SO08
 0
 8
 8
+oled
+MODULE_DM-OLED096-636
+
+
+0
+8
+8
 stx-3120-3b
 KYCON_STX-3120-3B
 
@@ -96676,3 +96725,10 @@ KYCON_STX-3120-3B
 0
 3
 3
+tl071
+DIP794W45P254L959H508Q8
+
+
+0
+8
+8
