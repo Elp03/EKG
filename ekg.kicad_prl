@@ -5,8 +5,10 @@
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [
-      "Net-(IC1-V+)",
-      "GNDS"
+      "Net-(J2-Pin_1)",
+      "GND",
+      "GNDS",
+      "-15V"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
