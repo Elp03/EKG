@@ -4,12 +4,7 @@
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
-    "hidden_nets": [
-      "Net-(J2-Pin_1)",
-      "GND",
-      "GNDS",
-      "-15V"
-    ],
+    "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
