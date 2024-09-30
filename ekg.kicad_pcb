@@ -12087,17 +12087,17 @@
 			)
 		)
 	)
-	(footprint "NetTie:NetTie-2_SMD_Pad0.5mm"
+	(footprint "NetTie:NetTie-2_SMD_Pad2.0mm"
 		(layer "B.Cu")
 		(uuid "283f9198-95b3-4076-b45d-09d2354d3bbb")
-		(at 106.307 47.625 180)
-		(descr "Net tie, 2 pin, 0.5mm square SMD pads")
+		(at 107.5 47 180)
+		(descr "Net tie, 2 pin, 2.0mm square SMD pads")
 		(tags "net tie")
 		(property "Reference" "NT1"
-			(at 0 1.2 0)
+			(at 0 2 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "2d9e9db9-5bbf-4b93-835f-a28f10743ce8")
+			(uuid "e9b2547f-bd1e-49cb-bf22-bd4decadf86d")
 			(effects
 				(font
 					(size 1 1)
@@ -12107,10 +12107,10 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 0 -1.2 0)
+			(at 0 -2 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "cd042717-6323-4bd4-a16d-49593b88d1dd")
+			(uuid "c826b07b-5887-4e79-be66-b3698aca8efa")
 			(effects
 				(font
 					(size 1 1)
@@ -12119,12 +12119,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d8ab4a93-a70b-4c12-964b-875e8c5fe6bd")
+			(uuid "39e4ae01-8738-49a0-8b24-efc5fc0c4203")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12138,7 +12138,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "4600f36e-0276-4b95-9831-cc148c84c7d3")
+			(uuid "40d67a8a-5c69-4914-8d8a-6a9841d1df86")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12152,7 +12152,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "21f31032-1de0-417d-bb5f-f11fda7b02c2")
+			(uuid "507e3706-82a7-4914-856d-239126b9f35a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12169,7 +12169,7 @@
 		(net_tie_pad_groups "1, 2")
 		(fp_poly
 			(pts
-				(xy -0.5 0.25) (xy 0.5 0.25) (xy 0.5 -0.25) (xy -0.5 -0.25)
+				(xy -2 1) (xy 2 1) (xy 2 -1) (xy -2 -1)
 			)
 			(stroke
 				(width 0)
@@ -12177,25 +12177,25 @@
 			)
 			(fill solid)
 			(layer "B.Cu")
-			(uuid "f3ba395a-66c3-440a-ae45-623814832d50")
+			(uuid "db7c9480-112f-44a1-943e-35fe03eb6d57")
 		)
 		(pad "1" smd circle
-			(at -0.5 0 180)
-			(size 0.5 0.5)
+			(at -2 0 180)
+			(size 2 2)
 			(layers "B.Cu")
 			(net 5 "GND")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "d1698c3f-a822-42cf-a099-e2d20ea88f43")
+			(uuid "8e7a24a9-9890-41a1-baba-531bff51e038")
 		)
 		(pad "2" smd circle
-			(at 0.5 0 180)
-			(size 0.5 0.5)
+			(at 2 0 180)
+			(size 2 2)
 			(layers "B.Cu")
 			(net 6 "GNDS")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "cbe300cc-296b-4210-9694-35bd62347d35")
+			(uuid "de08e3c7-f0cb-4d53-9f1e-0923ece6a962")
 		)
 	)
 	(segment
@@ -12519,22 +12519,6 @@
 		(uuid "fc70299c-1de7-47e5-8891-80eb10521ce9")
 	)
 	(via
-		(at 107.693 47.647)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net 5)
-		(uuid "27628253-e835-445a-ba06-de42c0bd23ba")
-	)
-	(via
-		(at 106.804 46.758)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net 5)
-		(uuid "5bb4a6e6-dacf-4ea1-99b3-9a3dd54b0256")
-	)
-	(via
 		(at 79 53)
 		(size 0.6)
 		(drill 0.3)
@@ -12565,62 +12549,6 @@
 		(layers "F.Cu" "B.Cu")
 		(net 5)
 		(uuid "d0b9aa99-1558-4c6f-a714-8681203fb1ae")
-	)
-	(via
-		(at 106.804 48.536)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net 5)
-		(uuid "e8aeefca-7fb3-4f3f-886a-b3d3dee8e65a")
-	)
-	(segment
-		(start 106.807 47.625)
-		(end 106.807 48.533)
-		(width 0.4)
-		(layer "B.Cu")
-		(net 5)
-		(uuid "141d9aab-a72f-4596-98ea-5d13efa3855d")
-	)
-	(segment
-		(start 106.807 46.761)
-		(end 106.804 46.758)
-		(width 0.4)
-		(layer "B.Cu")
-		(net 5)
-		(uuid "16fa5241-e4f3-42d6-a400-82f24b0166c8")
-	)
-	(segment
-		(start 106.807 48.533)
-		(end 106.804 48.536)
-		(width 0.4)
-		(layer "B.Cu")
-		(net 5)
-		(uuid "40e1677b-c0fd-4c2b-bfb7-d9075bef194a")
-	)
-	(segment
-		(start 107.671 47.625)
-		(end 107.693 47.647)
-		(width 0.4)
-		(layer "B.Cu")
-		(net 5)
-		(uuid "754d9399-ed3a-4e0c-bf95-a0ad0fb04fa4")
-	)
-	(segment
-		(start 106.807 47.625)
-		(end 106.807 46.761)
-		(width 0.4)
-		(layer "B.Cu")
-		(net 5)
-		(uuid "89d7746e-6aca-47b7-b4e6-2a81aa15996a")
-	)
-	(segment
-		(start 106.807 47.625)
-		(end 107.671 47.625)
-		(width 0.4)
-		(layer "B.Cu")
-		(net 5)
-		(uuid "d5f2a652-f590-40dd-8001-f597c8608236")
 	)
 	(segment
 		(start 103.675 52.025)
