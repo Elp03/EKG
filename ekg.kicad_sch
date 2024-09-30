@@ -7513,6 +7513,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 215.9) (xy 237.49 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac84a188-3eb6-41fa-92d4-62b2fd5041a6")
+	)
+	(wire
+		(pts
 			(xy 49.53 344.17) (xy 49.53 347.98)
 		)
 		(stroke
@@ -7853,6 +7863,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 215.9) (xy 237.49 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec9d84df-1b2c-49ec-a19a-f8f901eb9678")
+	)
+	(wire
+		(pts
 			(xy 74.93 213.36) (xy 85.09 213.36)
 		)
 		(stroke
@@ -8070,8 +8090,8 @@
 		(uuid 6573c417-84c2-481c-a8dd-428400befbd8)
 	)
 	(rectangle
-		(start 184.15 171.45)
-		(end 238.76 224.79)
+		(start 185.42 171.45)
+		(end 240.03 224.79)
 		(stroke
 			(width 0)
 			(type default)
@@ -14183,6 +14203,72 @@
 			(project ""
 				(path "/3e349a05-ae4f-435f-8aa7-c175080f679f"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 237.49 218.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7308ed6-8f8d-472d-b26e-7d51ef092fa5")
+		(property "Reference" "#PWR024"
+			(at 237.49 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 237.49 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f003c0b2-0171-41e6-85a5-e6736a82b508")
+		)
+		(instances
+			(project ""
+				(path "/3e349a05-ae4f-435f-8aa7-c175080f679f"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
