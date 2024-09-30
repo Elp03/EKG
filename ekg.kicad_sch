@@ -10711,7 +10711,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDS")
 		(at 215.9 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10719,7 +10719,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5482441a-6089-45b4-af6c-c64288f10df1")
+		(uuid "58955b9d-371f-46d9-8781-ef4e000510c1")
 		(property "Reference" "#PWR017"
 			(at 215.9 116.84 0)
 			(effects
@@ -10729,7 +10729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GNDS"
 			(at 215.9 115.57 0)
 			(effects
 				(font
@@ -10755,7 +10755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
 			(at 215.9 110.49 0)
 			(effects
 				(font
@@ -10765,10 +10765,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "dc342a3a-9498-48d8-ad41-e3f12f0dbc70")
+			(uuid "17d1e4be-b0d7-41e1-93cb-673ec2d30865")
 		)
 		(instances
-			(project "ekg"
+			(project ""
 				(path "/3e349a05-ae4f-435f-8aa7-c175080f679f"
 					(reference "#PWR017")
 					(unit 1)
