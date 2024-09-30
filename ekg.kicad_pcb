@@ -2400,7 +2400,7 @@
 		(uuid "3a78b43a-5053-43fd-8bc9-fe1989abce0e")
 		(at 100.6 73.73)
 		(property "Reference" "PS1"
-			(at -4.1 -4.23 360)
+			(at -4.1 -4.23 0)
 			(layer "F.SilkS")
 			(uuid "d6bd797a-7bb4-4f65-8fef-0d72f6e12cca")
 			(effects
@@ -2411,7 +2411,7 @@
 			)
 		)
 		(property "Value" "RB-0515D"
-			(at -1.27 5.08 360)
+			(at -1.27 5.08 0)
 			(layer "F.Fab")
 			(uuid "1095e23f-c010-4472-828c-8d6a5a96665c")
 			(effects
@@ -2422,7 +2422,7 @@
 			)
 		)
 		(property "Footprint" "RB-0515D:CONV_RB-0515D"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dc8a42ca-82af-4cc7-9514-5765cdb79e13")
@@ -2434,7 +2434,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5e554387-df4f-4ba4-8c65-ba20ea7b613b")
@@ -2446,7 +2446,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2e614e48-92da-46f8-aa75-377e910c0972")
@@ -2827,7 +2827,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
-			(at -3 0.04 360)
+			(at -3 0.04 0)
 			(layer "F.SilkS")
 			(uuid "48567c64-3691-4a0c-a99d-6c9b56177c58")
 			(effects
@@ -2838,7 +2838,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "b860f786-8795-493b-880e-9ca1e6b8909a")
 			(effects
@@ -2993,7 +2993,7 @@
 			(uuid "500e5227-4467-4338-b997-bac3d6172334")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "a328d372-6eca-4dc5-b11e-e16fb960cfc6")
 			(effects
@@ -4560,7 +4560,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C1"
-			(at -2.8125 0 360)
+			(at -2.8125 0 0)
 			(layer "F.SilkS")
 			(uuid "bebd81c3-6d81-4830-8c61-6601fcc31adf")
 			(effects
@@ -4571,7 +4571,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "2552bf8e-2138-4260-a377-8e1cca9013fa")
 			(effects
@@ -4726,7 +4726,7 @@
 			(uuid "9e270f7f-d180-4573-969e-c8cfbbcb93d8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "451c0a0c-2db1-4454-bd6a-9507781fb283")
 			(effects
@@ -5066,7 +5066,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C2"
-			(at -3 0 360)
+			(at -3 0 0)
 			(layer "F.SilkS")
 			(uuid "b64be7bf-c049-48f1-9a27-670718503847")
 			(effects
@@ -5077,7 +5077,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "0249f368-1ba7-48a2-88fe-87a997da89fd")
 			(effects
@@ -5232,7 +5232,7 @@
 			(uuid "1eb508b9-8829-4bc8-b5f5-33a30cc9271d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "50d25f11-4df5-4edb-9188-f104604e6844")
 			(effects
@@ -5570,7 +5570,7 @@
 		(uuid "a21bb49a-2d70-439b-8f2e-60795efdba33")
 		(at 123.1 112.785 180)
 		(property "Reference" "S1"
-			(at -0.325 -9.635 360)
+			(at -0.325 -9.635 0)
 			(layer "F.SilkS")
 			(uuid "94de02e2-db8c-410c-a79a-19a145c3133e")
 			(effects
@@ -5581,7 +5581,7 @@
 			)
 		)
 		(property "Value" "1825255-1"
-			(at 4.12 9.635 360)
+			(at 4.12 9.635 0)
 			(layer "F.Fab")
 			(uuid "3cf3c4a0-5115-4991-b482-179fee0d202c")
 			(effects
@@ -5592,7 +5592,7 @@
 			)
 		)
 		(property "Footprint" "1825255-1:SW_1825255-1"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "28fb6a3a-28e6-427e-ae68-9a27828d65b9")
@@ -5604,7 +5604,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "eda0dac9-cb7e-461e-8203-58f2bc6d2b64")
@@ -5616,7 +5616,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "207c3e2b-0895-4439-9c1d-46865f71c4f1")
@@ -10876,7 +10876,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R5"
-			(at 2.8125 0 360)
+			(at 2.8125 0 0)
 			(layer "F.SilkS")
 			(uuid "f8623b09-ff13-4a0f-8b1a-57f84dcc5727")
 			(effects
@@ -10887,7 +10887,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "0b301713-980c-4925-9fd6-b79f64161fc4")
 			(effects
@@ -11042,7 +11042,7 @@
 			(uuid "1052b65d-2cf6-4ca1-a6b2-744ee6b83b39")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "677204a5-6116-4e13-8d92-f4be0f212246")
 			(effects
@@ -13277,6 +13277,30 @@
 		(layer "In2.Cu")
 		(net 58)
 		(uuid "feaf938b-3277-47d4-b13b-c98f2e10afcc")
+	)
+	(segment
+		(start 102 45.5)
+		(end 91.647662 55.852338)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 58)
+		(uuid "00914611-e87d-4d0f-9fec-437252d82bcf")
+	)
+	(segment
+		(start 91.647662 55.852338)
+		(end 68.267662 55.852338)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 58)
+		(uuid "8b3d384f-7c76-48a6-b295-662ab6e19b45")
+	)
+	(segment
+		(start 68.267662 55.852338)
+		(end 67 57.12)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 58)
+		(uuid "f28370e7-3153-4141-8c86-8735d39de9f7")
 	)
 	(segment
 		(start 64.67 102.88)
