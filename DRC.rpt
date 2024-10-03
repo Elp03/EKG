@@ -1,0 +1,70 @@
+** Drc report for ekg.kicad_pcb **
+** Created on 2024-10-03T15:46:31+0200 **
+
+** Found 20 DRC violations **
+[lib_footprint_issues]: The current configuration does not include the library 'b2b-xh-a'.
+    Local override; warning
+    @(98.4500 mm, 123.6750 mm): Footprint J3
+[lib_footprint_issues]: Footprint 'TP_5010' not found in library '5010'.
+    Local override; warning
+    @(59.7000 mm, 63.0400 mm): Footprint TP3
+[lib_footprint_issues]: The current configuration does not include the library 'dm-oled096'.
+    Local override; warning
+    @(49.7500 mm, 83.4100 mm): Footprint U5
+[lib_footprint_issues]: Footprint 'TP_5010' not found in library '5010'.
+    Local override; warning
+    @(105.5000 mm, 64.5000 mm): Footprint TP5
+[lib_footprint_issues]: Footprint 'TP_5010' not found in library '5010'.
+    Local override; warning
+    @(100.5000 mm, 64.5000 mm): Footprint TP6
+[lib_footprint_issues]: Footprint 'SW_1825255-1' not found in library '1825255-1'.
+    Local override; warning
+    @(99.3500 mm, 111.9000 mm): Footprint S1
+[lib_footprint_issues]: Footprint 'TP_5010' not found in library '5010'.
+    Local override; warning
+    @(59.7000 mm, 43.5400 mm): Footprint TP4
+[lib_footprint_issues]: The current configuration does not include the library 'tl071'.
+    Local override; warning
+    @(94.9700 mm, 55.7300 mm): Footprint U1
+[lib_footprint_issues]: The current configuration does not include the library '2030'.
+    Local override; warning
+    @(90.5700 mm, 106.6400 mm): Footprint Powerboost1
+[lib_footprint_issues]: Footprint 'TP_5010' not found in library '5010'.
+    Local override; warning
+    @(82.0000 mm, 51.5400 mm): Footprint TP2
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(109.6600 mm, 127.2600 mm): Footprint u4
+[lib_footprint_issues]: Footprint 'TP_5010' not found in library '5010'.
+    Local override; warning
+    @(81.5000 mm, 63.0400 mm): Footprint TP1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(101.9128 mm, 109.6930 mm): Polygon on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(98.2752 mm, 109.2878 mm): Polygon on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(104.3135 mm, 72.0461 mm): Polygon on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(109.6355 mm, 109.7798 mm): Polygon on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(104.7418 mm, 71.9237 mm): Polygon on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(127.6492 mm, 117.7820 mm): Polygon on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(96.4565 mm, 117.5017 mm): Polygon on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(103.8178 mm, 75.3662 mm): Polygon on B.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
